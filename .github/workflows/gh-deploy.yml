@@ -8,7 +8,7 @@ jobs:
         uses: actions/checkout@v4
         
       - name: install npm packages
-        run: npm istall
+        run: npm install
         
       - name: run npm
         run: npm run build
